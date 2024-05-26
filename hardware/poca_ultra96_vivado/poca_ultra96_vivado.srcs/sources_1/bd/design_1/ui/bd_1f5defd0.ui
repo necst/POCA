@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.731288",
+   "Default View_TopLeft":"10,-81",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 340 -y 100 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 830 -y 160 -defaultsOSRD
+preplace inst rst_ps8_0_300M -pg 1 -lvl 1 -x 340 -y 430 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1490 -y 400 -defaultsOSRD
+preplace inst poca_main_0 -pg 1 -lvl 3 -x 1170 -y 390 -defaultsOSRD
+preplace netloc rst_ps8_0_300M_peripheral_aresetn 1 1 3 680 410 980 470 1350
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 20 220 670 310 990 310 1350J
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 30 210 650
+preplace netloc axi_smc_M00_AXI 1 0 5 30 200 660J 10 NJ 10 NJ 10 1630
+preplace netloc poca_main_0_m_axi_gmem0 1 3 1 N 380
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 980 160n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 N 70
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 1 N 90
+levelinfo -pg 1 0 340 830 1170 1490 1650
+pagesize -pg 1 -db -bbox -sgen 0 0 1650 530
+"
+}
+{
+   "da_axi4_cnt":"238",
+   "da_board_cnt":"4",
+   "da_clkrst_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"5"
+}
